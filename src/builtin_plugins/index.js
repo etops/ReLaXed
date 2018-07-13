@@ -5,6 +5,7 @@ const mathjax = require('./mathjax')
 const vegalite = require('./vegalite')
 const mermaid = require('./mermaid')
 const flowchart = require('./flowchart')
+const picassojs = require('./picassojs')
 const scss = require('./scss')
 const katex = require('./katex')
 // THESE ARE PLUGINS THAT CAN BE LOADED VIA CONFIG.PY
@@ -26,5 +27,6 @@ exports.defaultPlugins = [
   vegalite,
   flowchart,
   mermaid,
+  picassojs,
   scss
 ]

@@ -1,0 +1,7 @@
+script(src='https://cdn.jsdelivr.net/npm/picasso.js@0.10.4/dist/picasso.min.js')
+#container
+script(type='text/javascript').
+  var container = document.querySelector('#container');
+  container.style.height = '100%';
+  picasso.chart({ element: container, !{picassoSpec} });
+
